@@ -35,14 +35,22 @@ const App = () => {
           <nav>
             <ul className={styles.nav}>
               <li>
+                <div className={styles.icon}>
+                  <MdTravelExplore />
+                </div>
                 <div> Мои путешествия</div>
-                <MdTravelExplore />
               </li>
               <li>
-                <div>Профиль</div> <BiUserCircle />
+                <div className={styles.icon}>
+                  <BiUserCircle />
+                </div>
+                <div>Профиль</div>
               </li>
               <li>
-                <div>Настройки</div> <MdSettings />
+                <div className={styles.icon}>
+                  <MdSettings />
+                </div>
+                <div>Настройки</div>
               </li>
             </ul>
           </nav>
